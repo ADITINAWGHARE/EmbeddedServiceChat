@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>User interface</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+</head>
+<body style="margin: 0; padding:10px 300px;">
+<h1>User Interface Engineering</h1>
+<div>
+<p><a href="#">User Interface Engineering</a>offers more than patterns,it's a heavy resource that can meet a lot of your UI needs. The user and site generatd commentary is invaluable. </p>
+</div>
+<div>
+<h1>Elements of Design</h1>
+<p>There are <span style=" color: red; font-style: italic; font-weight: bold;">some handy groupings</span> of design elements for use on Elements of
+Design. This goes a<span style=" color:orange; font-style: normal;"> little beyond UI</span> but that's OK there's plenty for the UI pro to use here too.</p>
+</div>
+<div>
+<img alt ="mountain" src="Images/mountain.png" height="200"; width="400">
+</div>
+<div>
+<p style="background-color:green; text-align: center; color: white; padding: 10px 20px;">Ideation in design thinking</p>
+</div>
+<div>
+<ul style="font-family: sans-serif; font-size: 14px;">
+<li>Ask the right questions and innovate with a strong focus on your users</li>
+<li> Step beyond the obvious solutions and increase the <span><a href="#" style="color:orange;">innovation</a></span></li>
+<li>Bring together perspectives and strengths of your team members</li>
+<li>Uncover unexpected areas of innovation</li>
+<li>Uncover unexpected areas of innovation</li>
+
+</ul>
+</div>
+<div>
+<button type="button" style="background-color:rgb(31, 31, 228); color: white; padding:10px 20px; border:transparent;border-radius: 5px; font-family: 'Times New Roman', Times, serif;margin-right: 20px; width: 90px;">share</button>
+<button type="button" style="background-color:rgb(221, 44, 44); color: white; padding: 10px 20px ;border: transparent;border-radius: 5px; font-family: 'Times New Roman', Times, serif;">comment</button>
+
+</div>
+<script type='text/javascript'>
+function initEmbeddedMessaging() {
+try {
+embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+embeddedservice_bootstrap.init(
+'00DF9000001FGNa',
+'BotDeploy',
+'https://avasoft-1a9-dev-ed.develop.my.site.com/ESWBotDeploy1716907944399',
+{
+scrt2URL: 'https://avasoft-1a9-dev-ed.develop.my.salesforce-scrt.com'
+}
+);
+} catch (err) {
+console.error('Error loading Embedded Messaging: ', err);
+}
+};
+</script>
+
+</body>
+
+</html>
